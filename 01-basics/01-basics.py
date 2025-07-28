@@ -1,3 +1,4 @@
+# from math import pi, pow
 import math
 from readline import insert_text
 
@@ -116,21 +117,111 @@ append(value)
 extend([elements or list of elements])
 del list[index]
 list[start:end]
+remove(element)
+pop(index)
+clear()
+count(x)
+list.sort(reverse=True or False)
+list.copy()  # mutable copy
 '''
 
-l1 = [1,2,3, 2.85]
-print(len(l1))
-l2 =  [56.2, 'python'] + l1
-l2.insert(1, 20)
-l2.append(100)
-l2.extend([300, 'vino'])
-del l2[1]
-# print(l2[0:3])
+# l1 = [1,1,2,3, 2.85]
+# print(len(l1))
+# l2 =  [56.2, 'python'] + l1
+# l2.insert(1, 20)
+# l2.append(100)
+# l2.extend([300, 'vino'])
+# #l2.remove(56.2) # element
+# # del l2[1]  # index
+# print(l2)
+# l2.pop(0)
+# print(l2)
+# print(l1.count(2))
+# l1.sort(reverse=False)
+# print(l1)
+# copy_list = l1.copy()
+# copy_list.insert(0,101)
+# print(copy_list)
+
 
 # string
-my_str = 'Hello python'
-my_str2 = '10,20,30,40,50'
-print(my_str2.split(','))
+# my_str = 'Hello python'
+# my_str2 = '10,20,30,40,50'
+# print(my_str2.split(','))
+
+# Tuples
+llist = [1,2,3,4,5]  # mutable
+# print(llist)
+# llist[0] = 100
+# print(llist)
+
+'''
+    len(tp)
+    sum(tp)
+    max(tp)
+    min(tp)
+    5 in tp
+'''
+
+tp = (1,2,'Hello',2.4,5)  # immutable
+# tp =  tp[0:] + (101,)
+# print(tp)
+# del tp
+# print(tp)
+
+
+l1 = [10, 54, 2, 61, 15]
+l2 = [2, 61, 15]
+
+# for x in l1:
+#     if x in l2:
+#         print('Common lements', x)
+common = set(l1) & set(l2)
+Ncommon = set(l1).symmetric_difference(l2)
+
+# print(Ncommon)
+
+# Dictionary
+D = {
+    'USA': 100,
+    'INDIA': (50, 'Sathya'),
+    'UK': [200, 'London']
+}
+
+# print(D['UK'])
+
+# print(D.keys())
+
+# print(len(D))
+
+# print('UK' in D)
+D['Aus'] = [1,2,3,4,5]
+
+# print(D)
+
+# del D['USA']
+
+# for i in D.keys():
+#     print(i,D[i])
+
+def myadd(*a):
+    sum = 0
+    for i in a:
+        sum += i
+    return sum
+#
+# res = myadd(1,15,1,1,1)
+# print(res)
+
+print(dir(math))
+
+# for x in dir(math):
+#     print(x)
+
+print(pi)
+print(round(pow(2,4)))
+
+
 
 
 
