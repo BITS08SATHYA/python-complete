@@ -19,7 +19,9 @@ class Student:
         print(Student.college)
 
 
+
 stu = Student('Sathya',10, 89)
 
 print(stu.__init__)
+print(stu.__str__())
 print(stu.display())
