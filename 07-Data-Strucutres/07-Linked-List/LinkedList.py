@@ -17,15 +17,6 @@ class LinkedList:
     def isempty(self):
         return self._size == 0
 
-    def addlast(self, e):
-        node = _Node(e, None)
-        if self.isempty():
-            self._head = node
-        else:
-            self._tail._next = node
-        self._tail = node
-        self._size += 1
-
     def display(self):
         p = self._head
         while p:
@@ -43,12 +34,30 @@ class LinkedList:
             index += 1
         return -1
 
+    def addFirst(self,e):
+        node = _Node(e, None)
+        if self.isempty():
+            self._head = self._tail = node
+        else:
+            node._next = self._head
+            self._head = node
+        self._size += 1
+
+    def addlast(self, e):
+        node = _Node(e, None)
+        if self.isempty():
+            self._head = self._tail = node
+        else:
+            self._tail._next = node
+        self._tail = node
+        self._size += 1
 
 L = LinkedList()
 L.addlast(7)
 L.addlast(8)
 L.addlast(9)
 L.addlast(10)
+L.addFirst(1)
 L.display()
-print("Element found at index:  ", L.search(50))
-print('Size: ', L.__len__())
+# print("Element found at index:  ", L.search(50))
+# print('Size: ', L.__len__())
