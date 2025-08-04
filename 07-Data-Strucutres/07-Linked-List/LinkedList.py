@@ -81,6 +81,17 @@ class LinkedList:
             p._next = newest
         self._size += 1
 
+    def removeFirst(self):
+        if self.isempty():
+            print('Empty List')
+            return
+        e = self._head._element
+        self._head = self._head._next
+        self._size -= 1
+        if self.isempty():
+            self._tail = None
+        return e
+
 
 L = LinkedList()
 L.addlast(7)
@@ -92,6 +103,8 @@ L.addFirst(25)
 L.display()
 # print(L.get(3))
 L.addany(len(L), 89)
+L.display()
+L.removeFirst()
 L.display()
 # print("Element found at index:  ", L.search(50))
 # print('Size: ', L.__len__())
