@@ -1,3 +1,6 @@
+from logging import NullHandler
+
+
 class _Node:
     __slots__ = '_element', '_next'
     def __init__(self,element, next):
@@ -92,6 +95,22 @@ class LinkedList:
             self._tail = None
         return e
 
+    def removeLast(self):
+        if self.isempty():
+            print('Empty list')
+            return
+        p = self._head
+        i = 1
+        while i < self._size - 1:
+            p = p._next
+            i += 1
+        self._tail = p
+        p = p._next
+        e = p._element
+        self._tail._next = None
+        self._size -= 1
+        return e
+
 
 L = LinkedList()
 L.addlast(7)
@@ -102,9 +121,11 @@ L.addFirst(1)
 L.addFirst(25)
 L.display()
 # print(L.get(3))
-L.addany(len(L), 89)
-L.display()
-L.removeFirst()
+# L.addany(len(L), 89)
+# L.display()
+# L.removeFirst()
+# L.display()
+L.removeLast()
 L.display()
 # print("Element found at index:  ", L.search(50))
 # print('Size: ', L.__len__())
