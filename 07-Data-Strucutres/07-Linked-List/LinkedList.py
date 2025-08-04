@@ -68,12 +68,17 @@ class LinkedList:
     def addany(self, position, element):
         newest = _Node(element, None)
         p = self._head
-        i = 1
-        while i < position - 1:
-            p = p._next
-            i = i + 1
-        newest._next = p._next
-        p._next = newest
+        i = 0
+        if position == 0:
+            self.addFirst(element)
+        elif position == -1:
+            self.addlast(element)
+        else:
+            while i < position - 1:
+                p = p._next
+                i = i + 1
+            newest._next = p._next
+            p._next = newest
         self._size += 1
 
 
@@ -86,7 +91,7 @@ L.addFirst(1)
 L.addFirst(25)
 L.display()
 # print(L.get(3))
-L.addany(3, 89)
+L.addany(len(L), 89)
 L.display()
 # print("Element found at index:  ", L.search(50))
 # print('Size: ', L.__len__())
