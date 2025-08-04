@@ -34,6 +34,19 @@ class LinkedList:
             index += 1
         return -1
 
+    def get(self, idx):
+        # it should return node not the element
+        if self.isempty():
+            return None
+        p = self._head
+        index = 0
+        while p:
+            if idx == index:
+                return p
+            p = p._next
+            index += 1
+        return -1
+
     def addFirst(self,e):
         node = _Node(e, None)
         if self.isempty():
@@ -52,6 +65,18 @@ class LinkedList:
         self._tail = node
         self._size += 1
 
+    def addany(self, position, element):
+        newest = _Node(element, None)
+        p = self._head
+        i = 1
+        while i < position - 1:
+            p = p._next
+            i = i + 1
+        newest._next = p._next
+        p._next = newest
+        self._size += 1
+
+
 L = LinkedList()
 L.addlast(7)
 L.addlast(8)
@@ -59,6 +84,9 @@ L.addlast(9)
 L.addlast(10)
 L.addFirst(1)
 L.addFirst(25)
+L.display()
+# print(L.get(3))
+L.addany(3, 89)
 L.display()
 # print("Element found at index:  ", L.search(50))
 # print('Size: ', L.__len__())
