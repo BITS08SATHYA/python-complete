@@ -77,6 +77,21 @@ class CircularLinkedList:
         self._size -= 1
         return e._element
 
+    def removeLast(self):
+        if self.isempty():
+            print('Circular List is empty')
+            return
+        e = self._tail
+        i = 1
+        p = self._head
+        while i < len(self):
+            p = p._next
+            i += 1
+        p._next = self._head
+        self._tail = p
+        self._size -= 1
+        return e._element
+
 C = CircularLinkedList()
 C.addlast(7)
 C.addlast(4)
@@ -86,6 +101,8 @@ C.addlast(3)
 print(C.addAny(88, 3))
 
 C.display()
-C.removeFirst()
+# C.removeFirst()
+# C.display()
+C.removeLast()
 C.display()
 print('Size: ', len(C))
