@@ -20,11 +20,9 @@ class DoublyLinkedList:
 
     def display(self):
         p = self._head
-        i = 0
-        while i < len(self):
+        while p:
             print(p._element, end='->')
             p = p._next
-            i += 1
         print()
 
     def addLast(self, e):
@@ -37,6 +35,8 @@ class DoublyLinkedList:
             newest._prev = self._tail
             self._tail = newest
         self._size += 1
+
+
 
 
 D = DoublyLinkedList()
