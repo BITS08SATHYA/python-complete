@@ -1,3 +1,6 @@
+from wsgiref.validate import header_re
+
+
 class Node:
     __slots__ = ('_element', '_next', '_prev')
 
@@ -75,6 +78,27 @@ class DoublyLinkedList:
             self._tail = None
         return e
 
+    def removeLast(self):
+        if self.isempty():
+            print('List is empty')
+        e = self._tail._element
+        self._tail = self._tail._prev
+        self._size -= 1
+        return e
+
+    def removeAny(self, position):
+        p = self._head
+        i = 1
+        while i < position - 1:
+            p = p._next
+            i += 1
+        e = p._next._element
+        p._next = p._next._next
+        p._next._prev = p
+        self._size -= 1
+        return e
+
+
 
 
 
@@ -91,5 +115,7 @@ D.display()
 D.addAny(10,2 )
 D.display()
 D.removeFirst()
+D.display()
+D.removeAny(2)
 D.display()
 
