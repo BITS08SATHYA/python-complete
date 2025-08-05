@@ -47,6 +47,22 @@ class DoublyLinkedList:
             self._head = newest
         self._size += 1
 
+    def addAny(self, e, position):
+        newest = Node(e, None, None)
+        p = self._head
+        if self.isempty():
+            self._head = newest
+            self._tail = newest
+        i = 0
+        while i < position - 1:
+            p = p._next
+            i += 1
+        newest._next = p._next
+        p._next._prev = newest
+        p._next = newest
+        newest._prev = p
+        self._size += 1
+
 
 
 
@@ -56,5 +72,7 @@ D.addLast(4)
 D.addLast(5)
 D.display()
 D.addFirst(6)
+D.display()
+D.addAny(10,2 )
 D.display()
 
