@@ -58,7 +58,7 @@ class CircularLinkedList:
     def addAny(self, e ,position):
         newest = Node(e, None)
         p = self._head
-        i = 0
+        i = 1
         while i < position-1:
             p = p._next
             i += 1
