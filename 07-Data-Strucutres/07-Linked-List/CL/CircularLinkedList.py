@@ -1,3 +1,6 @@
+from email.feedparser import headerRE
+
+
 class Node:
     __slots__ = ('_element', '_next')
 
@@ -52,13 +55,25 @@ class CircularLinkedList:
         self._tail = newest
         self._size += 1
 
+    def addAny(self, e ,position):
+        newest = Node(e, None)
+        p = self._head
+        i = 0
+        while i < position-1:
+            p = p._next
+            i += 1
+        # print(p._next._element, end='-->')
+        newest._next = p._next
+        p._next = newest
+        self._size += 1
 
 C = CircularLinkedList()
-C.addlast(10)
-C.addlast(20)
-C.addlast(30)
-C.addlast(40)
-C.addFirst(5)
-C.addFirst(60)
+C.addlast(7)
+C.addlast(4)
+C.addlast(12)
+C.addlast(8)
+C.addlast(3)
+print(C.addAny(88, 3))
+
 C.display()
 print('Size: ', len(C))
