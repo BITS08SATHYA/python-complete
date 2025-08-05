@@ -63,6 +63,21 @@ class DoublyLinkedList:
         newest._prev = p
         self._size += 1
 
+    def removeFirst(self):
+        if self.isempty():
+            print('List is empty')
+            return
+        e = self._head._element
+        self._head = self._head._next
+        self._head._prev = None
+        self._size -= 1
+        if self.isempty():
+            self._tail = None
+        return e
+
+
+
+
 
 
 
@@ -74,5 +89,7 @@ D.display()
 D.addFirst(6)
 D.display()
 D.addAny(10,2 )
+D.display()
+D.removeFirst()
 D.display()
 
