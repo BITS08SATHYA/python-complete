@@ -1,3 +1,5 @@
+import Q_LL
+
 class _Node:
     __slots__ = '_element', '_left', '_right'
 
@@ -31,9 +33,20 @@ class BinaryTree:
             self.postOrder(root._right)
             print(root._element, end = '->')
 
-    def levelOrder(self, root):
-        if root:
-            pass
+    def levelOrder(self):
+        Q = Q_LL.QueuesLinkedList()
+        t = self._root
+        print(t._element, end='->')
+        Q.enqueue(t)
+        while not Q.is_empty():
+            t = Q.dequeue()
+            if t._left:
+                print(t._left._element, end='->')
+                Q.enqueue(t._left)
+            if t._right:
+                print(t._right._element, end='->')
+                Q.enqueue(t._right)
+
 
 # X = BinaryTree()
 # Y = BinaryTree()
@@ -60,16 +73,19 @@ t = BinaryTree()
 a = BinaryTree()
 X.maketree(40, a, a)
 Y.maketree(60, a, a)
-Z.maketree(20, X, Y)
+Z.maketree(20, X, a)
 r.maketree(50, a, Y)
 s.maketree(30, r, a)
 t.maketree(10, Z, s)
 
 print('In Order Traversal: ')
-Z.inOrder(t._root)
+t.inOrder(t._root)
 print('\n')
 print('Pre Order Traversal: ')
-Z.preOrder(t._root)
+t.preOrder(t._root)
 print('\n')
 print('Post Order Traversal: ')
-Z.postOrder(t._root)
+t.postOrder(t._root)
+print('\n')
+print('Level Order Traversal: ')
+t.levelOrder()
