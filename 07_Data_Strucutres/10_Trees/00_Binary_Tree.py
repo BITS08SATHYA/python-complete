@@ -54,6 +54,16 @@ class BinaryTree:
             return x + y + 1
         return 0
 
+    def height(self, root):
+        if root:
+            x = self.height(root._left)
+            y = self.height(root._right)
+            if x > y:
+                return x + 1
+            else:
+                return y + 1
+        return 0
+
 
 # X = BinaryTree()
 # Y = BinaryTree()
@@ -99,3 +109,6 @@ t.levelOrder()
 print('Count')
 print('\n')
 print(t.count(t._root))
+print('\n')
+print('Height of the tree')
+print(t.height(t._root)-1)
