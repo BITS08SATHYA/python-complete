@@ -1,6 +1,3 @@
-from logging import NullHandler
-
-
 class _Node:
     __slots__ = '_element', '_next'
     def __init__(self,element, next):
