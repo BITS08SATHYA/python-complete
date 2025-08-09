@@ -29,6 +29,17 @@ class BinarySearchTree:
         else:
             self._root = n
 
+    def search_iterative(self, key):
+        troot = self._root
+        while troot:
+            if key == troot._element:
+                return True
+            elif key < troot._element:
+                troot = troot._left
+            elif key > troot._element:
+                troot = troot._right
+        return False
+
     def rinsert(self, troot, e):
         if troot:
             if e < troot._element:
@@ -49,22 +60,25 @@ class BinarySearchTree:
 
 B = BinarySearchTree()
 # Iterative
-# B.insert(B._root, 50)
-# B.insert(B._root, 30)
-# B.insert(B._root, 80)
-# B.insert(B._root, 10)
-# B.insert(B._root, 40)
-# B.insert(B._root, 60)
+B.insert(B._root, 50)
+B.insert(B._root, 30)
+B.insert(B._root, 80)
+B.insert(B._root, 10)
+B.insert(B._root, 40)
+B.insert(B._root, 60)
 # B.inorder(B._root)
+print(B.search_iterative(40))
 
 # Recursive
-B._root = B.rinsert(B._root, 50)
-B.rinsert(B._root, 30)
-B.rinsert(B._root, 80)
-B.rinsert(B._root, 10)
-B.rinsert(B._root, 40)
-B.rinsert(B._root, 60)
-B.inorder(B._root)
+# B._root = B.rinsert(B._root, 50)
+# B.rinsert(B._root, 30)
+# B.rinsert(B._root, 80)
+# B.rinsert(B._root, 10)
+# B.rinsert(B._root, 40)
+# B.rinsert(B._root, 60)
+# B.inorder(B._root)
+
+
 
 
 
