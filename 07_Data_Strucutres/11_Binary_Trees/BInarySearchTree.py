@@ -48,18 +48,23 @@ class BinarySearchTree:
             self.inorder(troot._right)
 
 B = BinarySearchTree()
-B.insert(B._root, 50)
-B.insert(B._root, 30)
-B.insert(B._root, 80)
-B.insert(B._root, 10)
-B.insert(B._root, 40)
-B.insert(B._root, 60)
-B.rinsert(B._root, 100)
+# Iterative
+# B.insert(B._root, 50)
+# B.insert(B._root, 30)
+# B.insert(B._root, 80)
+# B.insert(B._root, 10)
+# B.insert(B._root, 40)
+# B.insert(B._root, 60)
+# B.inorder(B._root)
 
+# Recursive
+B._root = B.rinsert(B._root, 50)
+B.rinsert(B._root, 30)
+B.rinsert(B._root, 80)
+B.rinsert(B._root, 10)
+B.rinsert(B._root, 40)
+B.rinsert(B._root, 60)
 B.inorder(B._root)
-
-
-
 
 
 
