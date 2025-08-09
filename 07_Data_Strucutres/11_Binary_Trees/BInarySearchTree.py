@@ -40,6 +40,39 @@ class BinarySearchTree:
                 troot = troot._right
         return False
 
+    def delete(self, e):
+        p = self._root
+        pp = None
+        while p and p._element != e:
+            pp = p
+            if e < p._element:
+                p = p._left
+            else:
+                p = p._right
+        if not p:
+            return False
+        if p._left and p._right:
+            s = p._left
+            ps = p
+            while s._right:
+                ps = s
+                s = s._right
+            p._element = s._element
+            p = s
+            pp = ps
+        c = None
+        if p._left:
+            c = p._left
+        else:
+            c = p._right
+        if p == self._root:
+            self._root = None
+        else:
+            if p == pp._left:
+                pp._left = c
+            else:
+                pp._right = c
+
     def rsearch(self, troot ,key):
         if troot:
             if key == troot._element:
@@ -62,6 +95,8 @@ class BinarySearchTree:
         return troot
 
 
+
+
     def inorder(self, troot):
         if troot:
             self.inorder(troot._left)
@@ -70,24 +105,28 @@ class BinarySearchTree:
 
 B = BinarySearchTree()
 # Iterative
-# B.insert(B._root, 50)
-# B.insert(B._root, 30)
-# B.insert(B._root, 80)
-# B.insert(B._root, 10)
-# B.insert(B._root, 40)
-# B.insert(B._root, 60)
-# # B.inorder(B._root)
+B.insert(B._root, 50)
+B.insert(B._root, 30)
+B.insert(B._root, 80)
+B.insert(B._root, 10)
+B.insert(B._root, 40)
+B.insert(B._root, 60)
+B.inorder(B._root)
+B.delete(30)
+print('\n')
+B.inorder(B._root)
 # print(B.search_iterative(40))
 
+
 # Recursive
-B._root = B.rinsert(B._root, 50)
-B.rinsert(B._root, 30)
-B.rinsert(B._root, 80)
-B.rinsert(B._root, 10)
-B.rinsert(B._root, 40)
-B.rinsert(B._root, 60)
-# B.inorder(B._root)
-print(B.rsearch(B._root, 10))
+# B._root = B.rinsert(B._root, 50)
+# B.rinsert(B._root, 30)
+# B.rinsert(B._root, 80)
+# B.rinsert(B._root, 10)
+# B.rinsert(B._root, 40)
+# B.rinsert(B._root, 60)
+# # B.inorder(B._root)
+# print(B.rsearch(B._root, 10))
 
 
 
