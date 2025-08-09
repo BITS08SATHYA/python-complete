@@ -30,4 +30,43 @@ class BinarySearchTree:
             self._root = n
 
 
+    def inorder(self, troot):
+        if troot:
+            self.inorder(troot._left)
+            print(troot._element, end=' ')
+            self.inorder(troot._right)
+
+B = BinarySearchTree()
+B.insert(B._root, 50)
+B.insert(B._root, 30)
+B.insert(B._root, 80)
+B.insert(B._root, 10)
+B.insert(B._root, 40)
+B.insert(B._root, 60)
+
+B.inorder(B._root)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
