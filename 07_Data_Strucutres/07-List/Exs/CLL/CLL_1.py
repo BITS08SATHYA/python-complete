@@ -93,3 +93,23 @@ class CircularLinkedList:
         if self.isempty():
             self._head = None
             self._tail = None
+
+    def removeAny(self, pos):
+        if self.isempty():
+            print("List is empty")
+            return
+        elif pos == 0:
+            self.removeFirst()
+        elif pos == self._size - 1:
+            self.removeLast()
+        i = 1
+        p = self._head
+        while p and i < pos - 1:
+            p = p._next
+            i += 1
+        e = p._next
+        p._next = p._next._next
+        self._size -= 1
+        return e._element
+
+
