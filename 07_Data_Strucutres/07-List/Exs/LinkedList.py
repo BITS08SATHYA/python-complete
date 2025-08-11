@@ -40,7 +40,7 @@ class LinkedList:
         new_node = _Node(val, None)
         p = self._head
         i = 0
-        while i < pos-1:
+        while p and i < pos-1:
             p = p._next
             i += 1
         new_node._next = p._next
@@ -63,15 +63,51 @@ class LinkedList:
             p = p._next
         return -1
 
+#     remove elements
+    def remove_first(self):
+        if self.isempty():
+            print('List is empty')
+            return
+        ele = self._head._element
+        self._head = self._head._next
+        self._size -= 1
+        if self.isempty():
+            self._tail = None
+        return ele
+
+    def remove_last(self):
+        if self.isempty():
+            print('List is empty')
+            return
+        p = self._head
+        i = 1
+        while i < self._size - 1:
+            p = p._next
+            i += 1
+        self._tail = p
+        p = p._next
+        ele = p._element
+        self._tail._next = None
+        self._size -= 1
+        return ele
+
 
 ll = LinkedList()
 ll.insert_head(1)
 ll.insert_head(2)
 ll.insert_tail(5)
 ll.insert_head(3)
+# ll.display()
+# print('\n')
+# print(ll.search(5))
+# ll.insert_Any(30, 1)
+# print('\n')
+# ll.display()
+# print('\n')
+# ll.remove_first()
+# print('\n')
 ll.display()
 print('\n')
-# print(ll.search(5))
-ll.insert_Any(30, 1)
+ll.remove_last()
 print('\n')
 ll.display()
