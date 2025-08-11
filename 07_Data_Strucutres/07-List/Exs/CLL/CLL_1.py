@@ -46,5 +46,5 @@ class CircularLinkedList:
             self._tail = newest
         newest._next = self._tail._next
         self._tail._next = newest
-        self._tail = newest
         self._size += 1
+
