@@ -19,10 +19,11 @@ class LinkedList:
 
     def insert_head(self, val):
         new_node = _Node(val, self._head)
-        self._head = new_node
         if self.isempty():
             self._head = new_node
             self._tail = new_node
+        new_node._next = self._head
+        self._head = new_node
         self._size += 1
 
     def insert_tail(self, val):
@@ -41,9 +42,21 @@ class LinkedList:
             print(p._element , end = '->')
             p = p._next
 
+    def search(self, target):
+        p = self._head
+        index = 0
+        while p:
+            if p._element == target:
+                return index
+            index += 1
+            p = p._next
+        return -1
+
 
 ll = LinkedList()
 ll.insert_head(1)
 ll.insert_head(2)
 ll.insert_tail(5)
 ll.display()
+print('\n')
+print(ll.search(5))
