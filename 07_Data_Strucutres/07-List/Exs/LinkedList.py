@@ -36,6 +36,17 @@ class LinkedList:
         self._tail = new_node
         self._size += 1
 
+    def insert_Any(self, val, pos):
+        new_node = _Node(val, None)
+        p = self._head
+        i = 0
+        while i < pos-1:
+            p = p._next
+            i += 1
+        new_node._next = p._next
+        p._next = new_node
+        self._size += 1
+
     def display(self):
         p = self._head
         while p:
@@ -57,6 +68,10 @@ ll = LinkedList()
 ll.insert_head(1)
 ll.insert_head(2)
 ll.insert_tail(5)
+ll.insert_head(3)
 ll.display()
 print('\n')
-print(ll.search(5))
+# print(ll.search(5))
+ll.insert_Any(30, 1)
+print('\n')
+ll.display()
