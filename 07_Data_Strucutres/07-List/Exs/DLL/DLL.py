@@ -36,9 +36,18 @@ class DoublyLinkedList:
         if self.isempty():
             self._head = newest
             self._tail = newest
-        newest._prev = None
         newest._next = self._head
         self._head._prev = newest
         self._head = newest
+        self._size += 1
+
+    def addLast(self, data):
+        newest = Node(data, None, None)
+        if self.isempty():
+            self._head = newest
+            self._tail = newest
+        newest._prev = self._tail
+        self._tail._next = newest
+        self._tail = newest
         self._size += 1
 
