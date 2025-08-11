@@ -92,7 +92,7 @@ class LinkedList:
         return ele
 
     def removeAny(self, pos):
-        ele = 0
+        e = 0
         if self.isempty():
             print('List is empty')
             return
@@ -109,14 +109,14 @@ class LinkedList:
             e = p._next._element
             p._next = p._next._next
         self._size -= 1
-        return ele
+        return e
 
 
 ll = LinkedList()
-ll.insert_head(1)
-ll.insert_head(2)
+ll.insert_tail(1)
+ll.insert_tail(2)
 ll.insert_tail(5)
-ll.insert_head(3)
+ll.insert_tail(3)
 # ll.display()
 # print('\n')
 # print(ll.search(5))
@@ -128,11 +128,10 @@ ll.insert_head(3)
 # print('\n')
 ll.display()
 print('\n')
-ll.remove_last()
-print('\n')
-ll.display()
-print('\n')
+# ll.remove_last()
+# print('\n')
+# ll.display()
+# print('\n')
 ll.removeAny(3)
 print('\n')
 ll.display()
-12
