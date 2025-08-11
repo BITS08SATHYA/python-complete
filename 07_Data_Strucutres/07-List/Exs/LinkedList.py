@@ -91,6 +91,26 @@ class LinkedList:
         self._size -= 1
         return ele
 
+    def removeAny(self, pos):
+        ele = 0
+        if self.isempty():
+            print('List is empty')
+            return
+        elif pos == 0:
+            self.remove_first()
+        elif pos == self._size - 1:
+            self.remove_last()
+        else:
+            p = self._head
+            i = 1
+            while i < pos - 1:
+                p = p._next
+                i += 1
+            e = p._next._element
+            p._next = p._next._next
+        self._size -= 1
+        return ele
+
 
 ll = LinkedList()
 ll.insert_head(1)
@@ -109,5 +129,9 @@ ll.insert_head(3)
 ll.display()
 print('\n')
 ll.remove_last()
+print('\n')
+ll.display()
+print('\n')
+ll.removeAny(3)
 print('\n')
 ll.display()
