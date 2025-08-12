@@ -89,4 +89,34 @@ class DoublyLinkedList:
     def removeLast(self):
         if self.isempty():
             print("List is empty")
+            return
+        e = self._tail._data
+        self._tail = self._tail._prev
+        self._tail._next = None
+        self._size -= 1
+        if self.isempty():
+            self._head = None
+            self._tail = None
+        return e
 
+    def removeAny(self, pos):
+        if self.isempty():
+            print("List is empty")
+            return
+        elif pos == 0:
+            self.removeFirst()
+            return
+        elif pos == self._size - 1:
+            self.removeLast()
+            return
+        else:
+            i = 1
+            p = self._head
+            while p and i < pos - 1:
+                p = p._next
+                i += 1
+            e = p._next._data
+            p._next = p._next._next
+            p._next._prev = p
+            self._size -= 1
+            return e
