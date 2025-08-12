@@ -24,3 +24,4 @@ class StackInbuilt:
         return self._data[-1]
 
 
+    
