@@ -18,13 +18,12 @@ class QueuesLinkedList:
         return self._size == 0
 
     def enqueue(self, e):
-        newest = _Node(e, None)
+        new_node = _Node(e, None)
         if self.is_empty():
-            self._front = newest
-            self._rear = newest
-        else:
-            self._rear._next = newest
-        self._rear = newest
+            self._front = new_node
+            self._rear = new_node
+        self._rear._next = new_node
+        self._rear = new_node
         self._size += 1
 
     def dequeue(self):
@@ -40,7 +39,7 @@ class QueuesLinkedList:
 
     def first(self):
         if self.is_empty():
-            print('Queue is empty')
+            print('Queue is empty!')
             return
         return self._front._element
 
@@ -50,12 +49,3 @@ class QueuesLinkedList:
             print(p._element, end='->')
             p = p._next
         print()
-
-
-Q = QueuesLinkedList()
-Q.enqueue(1)
-Q.enqueue(2)
-Q.enqueue(3)
-Q.display()
-Q.dequeue()
-Q.display()
