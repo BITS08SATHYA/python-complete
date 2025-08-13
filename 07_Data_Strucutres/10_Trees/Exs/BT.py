@@ -37,12 +37,12 @@ class BinaryTree:
     def levelOrder(self):
         Q = Q_LL.QueuesLinkedList()
         t = self._root
-        print(t._element, end='->')
+        print(t._element, end = '->')
         Q.enqueue(t)
         while not Q.is_empty():
             t = Q.dequeue()
             if t._left:
-                print(t._left._element, end='->')
+                print(t._left._element, end ='->')
                 Q.enqueue(t._left)
             if t._right:
                 print(t._right._element, end='->')
@@ -59,8 +59,5 @@ class BinaryTree:
         if root:
             x = self.height(root._left)
             y = self.height(root._right)
-            if x > y:
-                return x + 1
-            else:
-                return y + 1
+            return max(x, y) + 1
         return 0
