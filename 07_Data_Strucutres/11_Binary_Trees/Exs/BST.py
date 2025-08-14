@@ -35,6 +35,17 @@ class BinarySearchTree:
             print(troot._element, end='->')
             self.inorder(troot._right)
 
+    def search_iterative(self, key):
+        troot = self._root
+        while troot:
+            if key == troot._element:
+                return True
+            elif key < troot._element:
+                troot = troot._left
+            elif key > troot._element:
+                troot = troot._right
+        return False
+
 
 B = BinarySearchTree()
 # Iterative
