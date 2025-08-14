@@ -18,7 +18,7 @@ class BinarySearchTree:
                 return
             elif e < troot._element:
                 troot = troot._left
-            elif e > troot._element:
+            else:
                 troot = troot._right
         n = _Node(e)
         if self._root:
