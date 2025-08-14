@@ -46,6 +46,16 @@ class BinarySearchTree:
                 troot = troot._right
         return False
 
+    def rsearch(self, troot, key):
+        if troot:
+            if key == troot._element:
+                return True
+            elif key < troot._element:
+                return self.rsearch(troot._left, key)
+            else:
+                return self.rsearch(troot._right, key)
+        return False
+
 
 B = BinarySearchTree()
 # Iterative
