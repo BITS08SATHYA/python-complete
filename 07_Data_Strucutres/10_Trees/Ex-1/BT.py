@@ -37,18 +37,23 @@ class BinaryTree:
 x = BinaryTree()
 y = BinaryTree()
 z = BinaryTree()
+r = BinaryTree()
+s = BinaryTree()
+t = BinaryTree()
 a = BinaryTree()
 
-x.maketree(20 , a, a)
-y.maketree(30,  a, a)
-z.maketree(10, x, y)
-
+x.maketree(40, a, a)
+y.maketree(60, a, a)
+z.maketree(20, x, a)
+r.maketree(50, a, y)
+s.maketree(30, r, a)
+t.maketree(10, z, s)
 print("In-order Traversal: ")
-z.inOrder(z._root)
+t.inOrder(t._root)
 
 print("\nPre-order Traversal: ")
-z.preOrder(z._root)
+t.preOrder(t._root)
 
 print("\nPost-order Traversal: ")
-z.postOrder(z._root)
+t.postOrder(t._root)
 
