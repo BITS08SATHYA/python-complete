@@ -45,6 +45,11 @@ class BinaryTree:
                 print(t._right._element, end=' ')
                 Q.enqueue(t._right)
 
+    def count(self, troot):
+        if troot:
+            return 1 + self.count(troot._left) + self.count(troot._right)
+        return 0
+
 
 x = BinaryTree()
 y = BinaryTree()
@@ -68,4 +73,9 @@ t.preOrder(t._root)
 
 print("\nPost-order Traversal: ")
 t.postOrder(t._root)
+
+print("\nLevel-order Traversal: ")
+t.levelOrder()
+
+print("\nCount of nodes in the tree: ", t.count(t._root))
 
