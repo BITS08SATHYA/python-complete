@@ -50,6 +50,11 @@ class BinaryTree:
             return 1 + self.count(troot._left) + self.count(troot._right)
         return 0
 
+    def height(self, troot):
+        if troot:
+            return 1 + max(self.height(troot._left), self.height(troot._right))
+        return 0
+
 
 x = BinaryTree()
 y = BinaryTree()
@@ -65,6 +70,9 @@ z.maketree(20, x, a)
 r.maketree(50, a, y)
 s.maketree(30, r, a)
 t.maketree(10, z, s)
+
+
+
 print("In-order Traversal: ")
 t.inOrder(t._root)
 
@@ -78,4 +86,6 @@ print("\nLevel-order Traversal: ")
 t.levelOrder()
 
 print("\nCount of nodes in the tree: ", t.count(t._root))
+
+print("Height of the tree: ", t.height(t._root))
 
