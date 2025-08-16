@@ -10,31 +10,6 @@ class BinarySearchTree:
     def __init__(self):
         self._root = None
 
-    def insert(self, troot, e):
-        temp = None
-        while troot:
-            temp = troot
-            if e == troot._element:
-                return
-            elif e < troot._element:
-                troot = troot._left
-            else:
-                troot = troot._right
-        n = _Node(e)
-        if self._root:
-            if e < temp._element:
-                temp._left = n
-            else:
-                temp._right = n
-        else:
-            self._root = n
-
-    def inorder(self, troot):
-        if troot:
-            self.inorder(troot._left)
-            print(troot._element, end='->')
-            self.inorder(troot._right)
-
     def search_iterative(self, key):
         # Understood now
         troot = self._root
@@ -47,6 +22,14 @@ class BinarySearchTree:
                 troot = troot._right
         return False
 
+    def inorder(self, troot):
+        if troot:
+            self.inorder(troot._left)
+            print(troot._element, end='->')
+            self.inorder(troot._right)
+
+
+
     def rsearch(self, troot, key):
         if troot:
             if key == troot._element:
@@ -56,6 +39,28 @@ class BinarySearchTree:
             else:
                 return self.rsearch(troot._right, key)
         return False
+
+
+    def insert(self, troot, e):
+        temp = None
+        # determine where to insert the new node
+        while troot:
+            temp = troot
+            if e == temp._element:
+                return
+            elif e < temp._element:
+                troot = troot._left
+            else:
+                troot = troot._right
+        n = _Node(e)
+        if self._root:
+            if e < temp._element:
+                temp._left = n
+            else:
+                temp._right = n
+        else:
+            self._root = n
+
 
 
     def rinsert(self, troot, e):
