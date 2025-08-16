@@ -57,6 +57,7 @@ class BinarySearchTree:
                 return self.rsearch(troot._right, key)
         return False
 
+
     def rinsert(self, troot, e):
         if troot:
             if e < troot._element:
