@@ -62,6 +62,8 @@ print(S._data)
 S.deleteMax()
 print(S._data)
 
+
+
       # 25
   # 20       2
 # 14  10
