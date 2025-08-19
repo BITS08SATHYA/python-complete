@@ -21,6 +21,28 @@ class Heap:
             hi //= 2
         self._data[hi] = e
 
+    def deleteMax(self):
+        if self._csize == 0:
+            print('Heap is empty')
+            return
+        e = self._data[1]
+        self._data[1] = self._data[self._csize]
+        self._data[self._csize] = -1
+        self._csize -= 1
+        i = 1
+        j = i * 2
+        while j <= self._csize:
+            if self._data[j] < self._data[j+1]:
+                j += 1
+            if self._data[i] < self._data[j]:
+                self._data[i], self._data[j] = self._data[j], self._data[i]
+                i = j
+                j = i * 2
+            else:
+                break
+        return e
+
+
     def max(self):
         if self._csize == 0:
             print('Heap is empty')
@@ -36,6 +58,8 @@ S.insert(20)
 S.insert(10)
 print(S._data)
 S.insert(40)
+print(S._data)
+S.deleteMax()
 print(S._data)
 
       # 25
