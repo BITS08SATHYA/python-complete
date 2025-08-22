@@ -51,3 +51,27 @@ class Graph:
 
     def display_adjMat(self):
         print(self._adjMat)
+
+
+G = Graph(4)
+G.display_adjMat()
+print('Vertices: ', G.vertex_count())
+print('Edges: ', G.edge_count())
+G.insert_edge(0, 1)
+G.insert_edge(0, 2)
+G.insert_edge(1, 0)
+G.insert_edge(1, 2)
+G.insert_edge(2, 0)
+G.insert_edge(2, 1)
+G.insert_edge(2, 3)
+G.insert_edge(3, 2)
+G.display_adjMat()
+print('Vertices: ', G.vertex_count())
+print('Edges: ', G.edge_count())
+G.edges()
+print('Edge between 1-3: ', G.exist_edge(1, 3))
+print('Edge between 2-3: ', G.exist_edge(2, 3))
+
+print('Degree', G.indegree(2))
+G.remove_edge(1,2)
+print('Edge between 1-2: ', G.exist_edge(1, 2))
