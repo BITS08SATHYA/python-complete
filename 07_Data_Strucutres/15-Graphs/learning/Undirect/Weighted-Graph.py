@@ -53,7 +53,6 @@ class Graph:
     def display_adjMat(self):
         print(self._adjMat)
 
-
 G = Graph(4)
 G.display_adjMat()
 print('Vertices: ', G.vertex_count())
