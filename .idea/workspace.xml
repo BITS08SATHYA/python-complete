@@ -4,23 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="930160da-0869-49cd-b0f1-bd5152708b95" name="Changes" comment="all order traversals except inorder impl">
-      <change afterPath="$PROJECT_DIR$/07_Data_Strucutres/10_Trees/Q_LL.py" afterDir="false" />
+    <list default="true" id="930160da-0869-49cd-b0f1-bd5152708b95" name="Changes" comment="bucket sort impl">
+      <change afterPath="$PROJECT_DIR$/07_Data_Strucutres/12-Balanced-Trees/Balanced_Search_Trees.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07-Data-Strucutres/07-List/CL/CircularLinkedList.py" beforeDir="false" afterPath="$PROJECT_DIR$/07_Data_Strucutres/07-List/CL/CircularLinkedList.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07-Data-Strucutres/07-List/DLL/DoublyLinkedList.py" beforeDir="false" afterPath="$PROJECT_DIR$/07_Data_Strucutres/07-List/DLL/DoublyLinkedList.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07-Data-Strucutres/07-List/LL/LinkedList.py" beforeDir="false" afterPath="$PROJECT_DIR$/07_Data_Strucutres/07-List/LL/LinkedList.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07-Data-Strucutres/08-Stack/StacksArray_Inbuilt_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/07_Data_Strucutres/08-Stack/StacksArray_Inbuilt_list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07-Data-Strucutres/08-Stack/StacksArrays_LL.py" beforeDir="false" afterPath="$PROJECT_DIR$/07_Data_Strucutres/08-Stack/StacksArrays_LL.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07-Data-Strucutres/09-queues/DEQue_LL.py" beforeDir="false" afterPath="$PROJECT_DIR$/07_Data_Strucutres/09_queues/DEQue_LL.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07-Data-Strucutres/09-queues/DeQueArray.py" beforeDir="false" afterPath="$PROJECT_DIR$/07_Data_Strucutres/09_queues/DeQueArray.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07-Data-Strucutres/09-queues/Queues_LL.py" beforeDir="false" afterPath="$PROJECT_DIR$/07_Data_Strucutres/09_queues/Queues_LL.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07-Data-Strucutres/09-queues/Queues_using_Arrays.py" beforeDir="false" afterPath="$PROJECT_DIR$/07_Data_Strucutres/09_queues/Queues_using_Arrays.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07-Data-Strucutres/10-Trees/00-Binary-Tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/07_Data_Strucutres/10_Trees/00_Binary_Tree.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07-Data-Strucutres/10-Trees/01-Pre-Order-Traversal.py" beforeDir="false" afterPath="$PROJECT_DIR$/07_Data_Strucutres/10_Trees/01-Pre-Order-Traversal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07-Data-Strucutres/10-Trees/02-InOrder-Traversal.py" beforeDir="false" afterPath="$PROJECT_DIR$/07_Data_Strucutres/10_Trees/02-InOrder-Traversal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07-Data-Strucutres/10-Trees/03-Post-Order-Traversal.py" beforeDir="false" afterPath="$PROJECT_DIR$/07_Data_Strucutres/10_Trees/03-Post-Order-Traversal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07-Data-Strucutres/10-Trees/04-Level-Order-Traversal.py" beforeDir="false" afterPath="$PROJECT_DIR$/07_Data_Strucutres/10_Trees/04-Level-Order-Traversal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_Data_Strucutres/12-Priority-Queues/02-heap.py" beforeDir="false" afterPath="$PROJECT_DIR$/07_Data_Strucutres/13-Priority-Queues/02-heap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_Data_Strucutres/12-Priority-Queues/03-heapSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/07_Data_Strucutres/13-Priority-Queues/03-heapSort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_Data_Strucutres/12-Priority-Queues/Heap01.py" beforeDir="false" afterPath="$PROJECT_DIR$/07_Data_Strucutres/13-Priority-Queues/Heap01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_Data_Strucutres/13-hashing/01-HashChain.py" beforeDir="false" afterPath="$PROJECT_DIR$/07_Data_Strucutres/14-hashing/01-HashChain.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_Data_Strucutres/13-hashing/02-HashLinearProbe.py" beforeDir="false" afterPath="$PROJECT_DIR$/07_Data_Strucutres/14-hashing/02-HashLinearProbe.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_Data_Strucutres/13-hashing/03-QuadraticProbing.py" beforeDir="false" afterPath="$PROJECT_DIR$/07_Data_Strucutres/14-hashing/03-QuadraticProbing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_Data_Strucutres/13-hashing/04-bucket-sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/07_Data_Strucutres/14-hashing/04-bucket-sort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_Data_Strucutres/13-hashing/LinkedList.py" beforeDir="false" afterPath="$PROJECT_DIR$/07_Data_Strucutres/14-hashing/LinkedList.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Unit Test" />
         <option value="Python Script" />
       </list>
     </option>
@@ -63,14 +58,28 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Python tests for LL_2_Test.MyTestCase.executor": "Coverage",
+    "Python tests.Python tests for LL_2_Test.MyTestCase.test_insert_head.executor": "Run",
+    "Python tests.Python tests for LL_2_Test.MyTestCase.test_insert_tail.executor": "Run",
     "Python.00-Binary-Tree.executor": "Run",
     "Python.00_Binary_Tree.executor": "Run",
+    "Python.01-HashChain.executor": "Run",
+    "Python.01-Heap.executor": "Run",
     "Python.01-Selection-Sort.executor": "Run",
     "Python.01-basics.executor": "Run",
+    "Python.02-HashLinearProbe.executor": "Run",
+    "Python.02-heap.executor": "Run",
     "Python.02-insertion_sort.executor": "Run",
     "Python.03-Bubble-Sort.executor": "Run",
+    "Python.03-heapSort.executor": "Run",
     "Python.04-Shell-Sort.executor": "Run",
+    "Python.04-bucket-sort.executor": "Run",
     "Python.05-Merge-Sort.executor": "Run",
+    "Python.BInarySearchTree.executor": "Run",
+    "Python.BST (1).executor": "Run",
+    "Python.BST.executor": "Run",
+    "Python.BT.executor": "Run",
+    "Python.Balanced_Search_Trees.executor": "Run",
     "Python.CircularLinkedList.executor": "Run",
     "Python.DEQue_LL.executor": "Run",
     "Python.DeQueArray.executor": "Run",
@@ -88,23 +97,32 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/sathipa/MyCompleteLearning/Kubernetes/kalyan_reddy/kubernetes-fundamentals",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/07_Data_Strucutres/13-hashing" />
+      <recent name="$PROJECT_DIR$/07_Data_Strucutres/11_Binary_Trees/Ex-1" />
+      <recent name="$PROJECT_DIR$/07_Data_Strucutres/10_Trees/Ex-1" />
+      <recent name="$PROJECT_DIR$/07_Data_Strucutres/10_Trees/Exs" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/07_Data_Strucutres" />
+      <recent name="$PROJECT_DIR$/07_Data_Strucutres/07-List/Exs/LL" />
       <recent name="$PROJECT_DIR$/07-Data-Strucutres/07-Linked-List/LL" />
       <recent name="$PROJECT_DIR$/06-Sorting/05-merge-sort" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.00_Binary_Tree">
-    <configuration name="00-Binary-Tree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Balanced_Search_Trees">
+    <configuration name="01-HashChain" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="New_DSA_Python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -113,12 +131,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/07-Data-Strucutres/10-Trees" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/07_Data_Strucutres/13-hashing" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/07-Data-Strucutres/10-Trees/00-Binary-Tree.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/07_Data_Strucutres/13-hashing/01-HashChain.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -127,7 +145,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="00_Binary_Tree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="02-HashLinearProbe" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="New_DSA_Python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -136,12 +154,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/07_Data_Strucutres/10_Trees" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/07_Data_Strucutres/13-hashing" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/07_Data_Strucutres/10_Trees/00_Binary_Tree.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/07_Data_Strucutres/13-hashing/02-HashLinearProbe.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -150,7 +168,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="DEQue_LL" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="03-heapSort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="New_DSA_Python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -159,12 +177,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/07-Data-Strucutres/09-queues" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/07_Data_Strucutres/12-Priority-Queues" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/07-Data-Strucutres/09-queues/DEQue_LL.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/07_Data_Strucutres/12-Priority-Queues/03-heapSort.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -173,7 +191,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="DeQueArray" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="04-bucket-sort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="New_DSA_Python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -182,12 +200,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/07-Data-Strucutres/09-queues" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/07_Data_Strucutres/13-hashing" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/07-Data-Strucutres/09-queues/DeQueArray.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/07_Data_Strucutres/13-hashing/04-bucket-sort.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -196,7 +214,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Queues_LL" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Balanced_Search_Trees" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="New_DSA_Python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -205,12 +223,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/07-Data-Strucutres/09-queues" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/07_Data_Strucutres/12-Balanced-Trees" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/07-Data-Strucutres/09-queues/Queues_LL.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/07_Data_Strucutres/12-Balanced-Trees/Balanced_Search_Trees.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -221,11 +239,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.00_Binary_Tree" />
-        <item itemvalue="Python.00-Binary-Tree" />
-        <item itemvalue="Python.DEQue_LL" />
-        <item itemvalue="Python.DeQueArray" />
-        <item itemvalue="Python.Queues_LL" />
+        <item itemvalue="Python.Balanced_Search_Trees" />
+        <item itemvalue="Python.04-bucket-sort" />
+        <item itemvalue="Python.02-HashLinearProbe" />
+        <item itemvalue="Python.01-HashChain" />
+        <item itemvalue="Python.03-heapSort" />
       </list>
     </recent_temporary>
   </component>
@@ -252,401 +270,411 @@
       <workItem from="1754327144636" duration="12502000" />
       <workItem from="1754406475577" duration="8171000" />
       <workItem from="1754531968339" duration="6047000" />
-      <workItem from="1754574695085" duration="8892000" />
+      <workItem from="1754574695085" duration="10240000" />
+      <workItem from="1754697561058" duration="6248000" />
+      <workItem from="1754876335906" duration="10483000" />
+      <workItem from="1754931108798" duration="3668000" />
+      <workItem from="1754941876023" duration="8266000" />
+      <workItem from="1755008599074" duration="1750000" />
+      <workItem from="1755024128076" duration="4226000" />
+      <workItem from="1755099883315" duration="43645000" />
+      <workItem from="1755458627526" duration="1000" />
+      <workItem from="1755619128274" duration="16699000" />
+      <workItem from="1755814770973" duration="6357000" />
     </task>
-    <task id="LOCAL-00009" summary="dummy 4">
+    <task id="LOCAL-00070" summary="Recall linkedlist">
       <option name="closed" value="true" />
-      <created>1753847485306</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
+      <created>1754881879442</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
       <option name="project" value="LOCAL" />
-      <updated>1753847485306</updated>
+      <updated>1754881879442</updated>
     </task>
-    <task id="LOCAL-00010" summary="binary search using iterative and recursive impl">
+    <task id="LOCAL-00071" summary="Recall linkedlist">
       <option name="closed" value="true" />
-      <created>1753848477224</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
+      <created>1754884346600</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
       <option name="project" value="LOCAL" />
-      <updated>1753848477224</updated>
+      <updated>1754884346600</updated>
     </task>
-    <task id="LOCAL-00011" summary="selection sort impl">
+    <task id="LOCAL-00072" summary="Recall linkedlist">
       <option name="closed" value="true" />
-      <created>1753982675863</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
+      <created>1754884775922</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
       <option name="project" value="LOCAL" />
-      <updated>1753982675863</updated>
+      <updated>1754884775922</updated>
     </task>
-    <task id="LOCAL-00012" summary="insertion sort impl">
+    <task id="LOCAL-00073" summary="Recall linkedlist">
       <option name="closed" value="true" />
-      <created>1753984259695</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
+      <created>1754884792750</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
       <option name="project" value="LOCAL" />
-      <updated>1753984259695</updated>
+      <updated>1754884792750</updated>
     </task>
-    <task id="LOCAL-00013" summary="insertion sort impl">
+    <task id="LOCAL-00074" summary="Recall linkedlist">
       <option name="closed" value="true" />
-      <created>1753984502173</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
+      <created>1754884804152</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
       <option name="project" value="LOCAL" />
-      <updated>1753984502173</updated>
+      <updated>1754884804152</updated>
     </task>
-    <task id="LOCAL-00014" summary="bubble sort sort impl">
+    <task id="LOCAL-00075" summary="Recall linkedlist">
       <option name="closed" value="true" />
-      <created>1754060969546</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
+      <created>1754885051775</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
       <option name="project" value="LOCAL" />
-      <updated>1754060969546</updated>
+      <updated>1754885051775</updated>
     </task>
-    <task id="LOCAL-00015" summary="shell sort sort impl">
+    <task id="LOCAL-00076" summary="Working out the linked list, circular Linked and doubly linked list implemented">
       <option name="closed" value="true" />
-      <created>1754061182025</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
+      <created>1754946992218</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
       <option name="project" value="LOCAL" />
-      <updated>1754061182025</updated>
+      <updated>1754946992219</updated>
     </task>
-    <task id="LOCAL-00016" summary="merge sort impl">
+    <task id="LOCAL-00077" summary="Working out the linked list, circular Linked and doubly linked list implemented">
       <option name="closed" value="true" />
-      <created>1754063263765</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
+      <created>1754947070264</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
       <option name="project" value="LOCAL" />
-      <updated>1754063263765</updated>
+      <updated>1754947070265</updated>
     </task>
-    <task id="LOCAL-00017" summary="algorithms is on hold!">
+    <task id="LOCAL-00078" summary="Working out the linked list, circular Linked and doubly linked list implemented">
       <option name="closed" value="true" />
-      <created>1754330091729</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
+      <created>1754948154308</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
       <option name="project" value="LOCAL" />
-      <updated>1754330091729</updated>
+      <updated>1754948154308</updated>
     </task>
-    <task id="LOCAL-00018" summary="isEmpty, len, addLast and display methods implemented">
+    <task id="LOCAL-00079" summary="Working out the linked list, circular Linked and doubly linked list implemented">
       <option name="closed" value="true" />
-      <created>1754330176819</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
+      <created>1754948441116</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
       <option name="project" value="LOCAL" />
-      <updated>1754330176819</updated>
+      <updated>1754948441116</updated>
     </task>
-    <task id="LOCAL-00019" summary="addBeginning list method implemented">
+    <task id="LOCAL-00080" summary="Working out the linked list, circular Linked and doubly linked list implemented">
       <option name="closed" value="true" />
-      <created>1754330490844</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
+      <created>1754949366687</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
       <option name="project" value="LOCAL" />
-      <updated>1754330490844</updated>
+      <updated>1754949366687</updated>
     </task>
-    <task id="LOCAL-00020" summary="addBeginning list method implemented">
+    <task id="LOCAL-00081" summary="Working out the linked list, circular Linked and doubly linked list implemented">
       <option name="closed" value="true" />
-      <created>1754330678050</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
+      <created>1754949574334</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
       <option name="project" value="LOCAL" />
-      <updated>1754330678050</updated>
+      <updated>1754949574334</updated>
     </task>
-    <task id="LOCAL-00021" summary="addAny method implemented!">
+    <task id="LOCAL-00082" summary="Working out the linked list, circular Linked and doubly linked list implemented">
       <option name="closed" value="true" />
-      <created>1754332791146</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
+      <created>1754950284353</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
       <option name="project" value="LOCAL" />
-      <updated>1754332791146</updated>
+      <updated>1754950284353</updated>
     </task>
-    <task id="LOCAL-00022" summary="addAny method implemented!">
+    <task id="LOCAL-00083" summary="Working out the linked list, circular Linked and doubly linked list implemented">
       <option name="closed" value="true" />
-      <created>1754334082344</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
+      <created>1754950503299</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
       <option name="project" value="LOCAL" />
-      <updated>1754334082344</updated>
+      <updated>1754950503299</updated>
     </task>
-    <task id="LOCAL-00023" summary="removeFirst method implemented!">
+    <task id="LOCAL-00084" summary="Working out the linked list, circular Linked and doubly linked list implemented">
       <option name="closed" value="true" />
-      <created>1754334389296</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
+      <created>1755008621122</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
       <option name="project" value="LOCAL" />
-      <updated>1754334389296</updated>
+      <updated>1755008621123</updated>
     </task>
-    <task id="LOCAL-00024" summary="removeLast method implemented!">
+    <task id="LOCAL-00085" summary="Exercising Stacks with in-built impl">
       <option name="closed" value="true" />
-      <created>1754335021519</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
+      <created>1755009117756</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
       <option name="project" value="LOCAL" />
-      <updated>1754335021519</updated>
+      <updated>1755009117756</updated>
     </task>
-    <task id="LOCAL-00025" summary="removeAny method implemented!">
+    <task id="LOCAL-00086" summary="Exercising Stacks with in-built impl">
       <option name="closed" value="true" />
-      <created>1754335833219</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
+      <created>1755009539435</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
       <option name="project" value="LOCAL" />
-      <updated>1754335833219</updated>
+      <updated>1755009539435</updated>
     </task>
-    <task id="LOCAL-00026" summary="LinkedList impl done">
+    <task id="LOCAL-00087" summary="Exercising Queues with in-built impl">
       <option name="closed" value="true" />
-      <created>1754407865981</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
+      <created>1755025077407</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
       <option name="project" value="LOCAL" />
-      <updated>1754407865981</updated>
+      <updated>1755025077407</updated>
     </task>
-    <task id="LOCAL-00027" summary="CircularLinkedList addFirst and addLast impl">
+    <task id="LOCAL-00088" summary="Exercising Queues with in-built and LL impl">
       <option name="closed" value="true" />
-      <created>1754407883752</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
+      <created>1755027455380</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
       <option name="project" value="LOCAL" />
-      <updated>1754407883752</updated>
+      <updated>1755027455380</updated>
     </task>
-    <task id="LOCAL-00028" summary="CircularLinkedList addFirst and addLast impl">
+    <task id="LOCAL-00089" summary="Exercising Binart Tree with in-built and LL impl">
       <option name="closed" value="true" />
-      <created>1754407956180</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
+      <created>1755101053868</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
       <option name="project" value="LOCAL" />
-      <updated>1754407956180</updated>
+      <updated>1755101053868</updated>
     </task>
-    <task id="LOCAL-00029" summary="CircularLinkedList addAny method impl">
+    <task id="LOCAL-00090" summary="Exercising Binart Tree with in-built and LL impl">
       <option name="closed" value="true" />
-      <created>1754408821273</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
+      <created>1755101381454</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
       <option name="project" value="LOCAL" />
-      <updated>1754408821273</updated>
+      <updated>1755101381454</updated>
     </task>
-    <task id="LOCAL-00030" summary="CircularLinkedList addAny method impl">
+    <task id="LOCAL-00091" summary="Exercising Binart Tree with in-built and LL impl">
       <option name="closed" value="true" />
-      <created>1754408948828</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
+      <created>1755139419000</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
       <option name="project" value="LOCAL" />
-      <updated>1754408948828</updated>
+      <updated>1755139419000</updated>
     </task>
-    <task id="LOCAL-00031" summary="CircularLinkedList removeFirst method impl">
+    <task id="LOCAL-00092" summary="Exercising Binart Tree with in-built and LL impl">
       <option name="closed" value="true" />
-      <created>1754409239903</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
+      <created>1755139422548</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
       <option name="project" value="LOCAL" />
-      <updated>1754409239903</updated>
+      <updated>1755139422548</updated>
     </task>
-    <task id="LOCAL-00032" summary="CircularLinkedList removeLast method impl">
+    <task id="LOCAL-00093" summary="Exercising Binart Tree with in-built and LL impl">
       <option name="closed" value="true" />
-      <created>1754409568165</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
+      <created>1755140025391</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
       <option name="project" value="LOCAL" />
-      <updated>1754409568165</updated>
+      <updated>1755140025391</updated>
     </task>
-    <task id="LOCAL-00033" summary="CircularLinkedList removeLast method impl">
+    <task id="LOCAL-00094" summary="Exercising Binart Tree with in-built and LL impl">
       <option name="closed" value="true" />
-      <created>1754409983225</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
+      <created>1755140353927</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
       <option name="project" value="LOCAL" />
-      <updated>1754409983225</updated>
+      <updated>1755140353927</updated>
     </task>
-    <task id="LOCAL-00034" summary="CircularLinkedList removeLast method impl">
+    <task id="LOCAL-00095" summary="Exercising Binart Tree with in-built and LL impl">
       <option name="closed" value="true" />
-      <created>1754410809759</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
+      <created>1755140453906</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
       <option name="project" value="LOCAL" />
-      <updated>1754410809759</updated>
+      <updated>1755140453906</updated>
     </task>
-    <task id="LOCAL-00035" summary="LL removeLast method impl">
+    <task id="LOCAL-00096" summary="Ex-1 Binary Tree Impl">
       <option name="closed" value="true" />
-      <created>1754412031857</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
+      <created>1755265950464</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
       <option name="project" value="LOCAL" />
-      <updated>1754412031857</updated>
+      <updated>1755265950464</updated>
     </task>
-    <task id="LOCAL-00036" summary="CL removeLast method impl">
+    <task id="LOCAL-00097" summary="Ex-1 Binary Tree Impl">
       <option name="closed" value="true" />
-      <created>1754412045678</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
+      <created>1755266628918</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
       <option name="project" value="LOCAL" />
-      <updated>1754412045678</updated>
+      <updated>1755266628918</updated>
     </task>
-    <task id="LOCAL-00037" summary="DLL removeLast method impl">
+    <task id="LOCAL-00098" summary="Ex-1 Binary Tree Impl with level order impl">
       <option name="closed" value="true" />
-      <created>1754412057807</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
+      <created>1755268412637</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
       <option name="project" value="LOCAL" />
-      <updated>1754412057807</updated>
+      <updated>1755268412637</updated>
     </task>
-    <task id="LOCAL-00038" summary="DLL removeLast and display method impl">
+    <task id="LOCAL-00099" summary="Ex-1 Binary Tree Impl with count impl">
       <option name="closed" value="true" />
-      <created>1754412145855</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
+      <created>1755269291468</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
       <option name="project" value="LOCAL" />
-      <updated>1754412145855</updated>
+      <updated>1755269291468</updated>
     </task>
-    <task id="LOCAL-00039" summary="CLL addLast and addFirst method impl">
+    <task id="LOCAL-00100" summary="Ex-1 Binary Tree Impl with height impl">
       <option name="closed" value="true" />
-      <created>1754412714121</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
+      <created>1755269814359</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
       <option name="project" value="LOCAL" />
-      <updated>1754412714121</updated>
+      <updated>1755269814359</updated>
     </task>
-    <task id="LOCAL-00040" summary="CLL addAny method impl">
+    <task id="LOCAL-00101" summary="BST Search method using iterative impl">
       <option name="closed" value="true" />
-      <created>1754413620924</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
+      <created>1755355636375</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
       <option name="project" value="LOCAL" />
-      <updated>1754413620924</updated>
+      <updated>1755355636375</updated>
     </task>
-    <task id="LOCAL-00041" summary="CLL removeFirst method impl">
+    <task id="LOCAL-00102" summary="BST Search method using recursive impl">
       <option name="closed" value="true" />
-      <created>1754413995012</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
+      <created>1755356077228</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
       <option name="project" value="LOCAL" />
-      <updated>1754413995012</updated>
+      <updated>1755356077228</updated>
     </task>
-    <task id="LOCAL-00042" summary="CLL removeLast method impl">
+    <task id="LOCAL-00103" summary="BST insert method using iterative impl">
       <option name="closed" value="true" />
-      <created>1754414519455</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
+      <created>1755356750436</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
       <option name="project" value="LOCAL" />
-      <updated>1754414519455</updated>
+      <updated>1755356750436</updated>
     </task>
-    <task id="LOCAL-00043" summary="linkedlist impl">
+    <task id="LOCAL-00104" summary="BST delete method using iterative impl">
       <option name="closed" value="true" />
-      <created>1754535520138</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
+      <created>1755364310101</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
       <option name="project" value="LOCAL" />
-      <updated>1754535520138</updated>
+      <updated>1755364310101</updated>
     </task>
-    <task id="LOCAL-00044" summary="Stack using list">
+    <task id="LOCAL-00105" summary="BST delete method using iterative impl">
       <option name="closed" value="true" />
-      <created>1754535540981</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
+      <created>1755455311841</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
       <option name="project" value="LOCAL" />
-      <updated>1754535540981</updated>
+      <updated>1755455311841</updated>
     </task>
-    <task id="LOCAL-00045" summary="Stack using LinkedList">
+    <task id="LOCAL-00106" summary="heaps insertion method impl">
       <option name="closed" value="true" />
-      <created>1754535557799</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
+      <created>1755619691430</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
       <option name="project" value="LOCAL" />
-      <updated>1754535557799</updated>
+      <updated>1755619691431</updated>
     </task>
-    <task id="LOCAL-00046" summary="Queue using Arrays inbuilt python list">
+    <task id="LOCAL-00107" summary="heaps deletion method impl">
       <option name="closed" value="true" />
-      <created>1754537367522</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
+      <created>1755620818119</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
       <option name="project" value="LOCAL" />
-      <updated>1754537367522</updated>
+      <updated>1755620818119</updated>
     </task>
-    <task id="LOCAL-00047" summary="Queue using Arrays inbuilt python list">
+    <task id="LOCAL-00108" summary="heaps deletion method impl">
       <option name="closed" value="true" />
-      <created>1754537398188</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
+      <created>1755621108500</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
       <option name="project" value="LOCAL" />
-      <updated>1754537398188</updated>
+      <updated>1755621108500</updated>
     </task>
-    <task id="LOCAL-00048" summary="Queue using LinkedList impl">
+    <task id="LOCAL-00109" summary="heaps in-built python method impl">
       <option name="closed" value="true" />
-      <created>1754537877021</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
+      <created>1755621119975</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
       <option name="project" value="LOCAL" />
-      <updated>1754537877021</updated>
+      <updated>1755621119975</updated>
     </task>
-    <task id="LOCAL-00049" summary="DEQue using array impl">
+    <task id="LOCAL-00110" summary="heaps in-built python method impl">
       <option name="closed" value="true" />
-      <created>1754538365587</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
+      <created>1755621550234</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
       <option name="project" value="LOCAL" />
-      <updated>1754538365587</updated>
+      <updated>1755621550234</updated>
     </task>
-    <task id="LOCAL-00050" summary="BT init">
+    <task id="LOCAL-00111" summary="heapSort impl">
       <option name="closed" value="true" />
-      <created>1754590177092</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
+      <created>1755621573011</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
       <option name="project" value="LOCAL" />
-      <updated>1754590177093</updated>
+      <updated>1755621573011</updated>
     </task>
-    <task id="LOCAL-00051" summary="01- Pre-Order Impl">
+    <task id="LOCAL-00112" summary="hashing impl">
       <option name="closed" value="true" />
-      <created>1754590192054</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
+      <created>1755656152978</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
       <option name="project" value="LOCAL" />
-      <updated>1754590192054</updated>
+      <updated>1755656152978</updated>
     </task>
-    <task id="LOCAL-00052" summary="01- In-Order Impl">
+    <task id="LOCAL-00113" summary="LL for hashing impl">
       <option name="closed" value="true" />
-      <created>1754590202511</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
+      <created>1755656167036</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
       <option name="project" value="LOCAL" />
-      <updated>1754590202511</updated>
+      <updated>1755656167036</updated>
     </task>
-    <task id="LOCAL-00053" summary="01- Post-Order Impl">
+    <task id="LOCAL-00114" summary="LL for hashing impl">
       <option name="closed" value="true" />
-      <created>1754590210800</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
+      <created>1755706434075</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
       <option name="project" value="LOCAL" />
-      <updated>1754590210800</updated>
+      <updated>1755706434075</updated>
     </task>
-    <task id="LOCAL-00054" summary="04- level-Order Impl">
+    <task id="LOCAL-00115" summary="Hashing impl">
       <option name="closed" value="true" />
-      <created>1754590222261</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
+      <created>1755706443831</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
       <option name="project" value="LOCAL" />
-      <updated>1754590222262</updated>
+      <updated>1755706443831</updated>
     </task>
-    <task id="LOCAL-00055" summary="all order traversals except inorder">
+    <task id="LOCAL-00116" summary="linear probing impl">
       <option name="closed" value="true" />
-      <created>1754590777212</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
+      <created>1755707431920</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
       <option name="project" value="LOCAL" />
-      <updated>1754590777212</updated>
+      <updated>1755707431920</updated>
     </task>
-    <task id="LOCAL-00056" summary="all order traversals except inorder impl">
+    <task id="LOCAL-00117" summary="quadratic probing impl">
       <option name="closed" value="true" />
-      <created>1754591296353</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
+      <created>1755707775034</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
       <option name="project" value="LOCAL" />
-      <updated>1754591296354</updated>
+      <updated>1755707775034</updated>
     </task>
-    <task id="LOCAL-00057" summary="all order traversals except inorder impl">
+    <task id="LOCAL-00118" summary="bucket sort impl">
       <option name="closed" value="true" />
-      <created>1754592420857</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
+      <created>1755709280287</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
       <option name="project" value="LOCAL" />
-      <updated>1754592420857</updated>
+      <updated>1755709280287</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <option name="localTasksCounter" value="119" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -664,54 +692,66 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="CircularLinkedList addFirst and addLast impl" />
-    <MESSAGE value="CircularLinkedList addAny method impl" />
-    <MESSAGE value="CircularLinkedList removeFirst method impl" />
-    <MESSAGE value="CircularLinkedList removeLast method impl" />
-    <MESSAGE value="LL removeLast method impl" />
-    <MESSAGE value="CL removeLast method impl" />
-    <MESSAGE value="DLL removeLast method impl" />
-    <MESSAGE value="DLL removeLast and display method impl" />
-    <MESSAGE value="CLL addLast and addFirst method impl" />
-    <MESSAGE value="CLL addAny method impl" />
-    <MESSAGE value="CLL removeFirst method impl" />
-    <MESSAGE value="CLL removeLast method impl" />
-    <MESSAGE value="linkedlist impl" />
-    <MESSAGE value="Stack using list" />
-    <MESSAGE value="Stack using LinkedList" />
-    <MESSAGE value="Queue using Arrays inbuilt python list" />
-    <MESSAGE value="Queue using LinkedList impl" />
-    <MESSAGE value="DEQue using array impl" />
-    <MESSAGE value="BT init" />
-    <MESSAGE value="01- Pre-Order Impl" />
-    <MESSAGE value="01- In-Order Impl" />
-    <MESSAGE value="01- Post-Order Impl" />
-    <MESSAGE value="04- level-Order Impl" />
-    <MESSAGE value="all order traversals except inorder" />
-    <MESSAGE value="all order traversals except inorder impl" />
-    <option name="LAST_COMMIT_MESSAGE" value="all order traversals except inorder impl" />
+    <MESSAGE value="binarySearchTree delete method impl" />
+    <MESSAGE value="Recall linkedlist" />
+    <MESSAGE value="Working out the linked list, circular Linked and doubly linked list implemented" />
+    <MESSAGE value="Exercising Stacks with in-built impl" />
+    <MESSAGE value="Exercising Queues with in-built impl" />
+    <MESSAGE value="Exercising Queues with in-built and LL impl" />
+    <MESSAGE value="Exercising Binart Tree with in-built and LL impl" />
+    <MESSAGE value="Ex-1 Binary Tree Impl" />
+    <MESSAGE value="Ex-1 Binary Tree Impl with level order impl" />
+    <MESSAGE value="Ex-1 Binary Tree Impl with count impl" />
+    <MESSAGE value="Ex-1 Binary Tree Impl with height impl" />
+    <MESSAGE value="BST Search method using iterative impl" />
+    <MESSAGE value="BST Search method using recursive impl" />
+    <MESSAGE value="BST insert method using iterative impl" />
+    <MESSAGE value="BST delete method using iterative impl" />
+    <MESSAGE value="heaps insertion method impl" />
+    <MESSAGE value="heaps deletion method impl" />
+    <MESSAGE value="heaps in-built python method impl" />
+    <MESSAGE value="heapSort impl" />
+    <MESSAGE value="hashing impl" />
+    <MESSAGE value="LL for hashing impl" />
+    <MESSAGE value="Hashing impl" />
+    <MESSAGE value="linear probing impl" />
+    <MESSAGE value="quadratic probing impl" />
+    <MESSAGE value="bucket sort impl" />
+    <option name="LAST_COMMIT_MESSAGE" value="bucket sort impl" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/New_DSA_Python$DEQue_LL.coverage" NAME="DEQue_LL Coverage Results" MODIFIED="1754539034524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07-Data-Strucutres/09-queues" />
     <SUITE FILE_PATH="coverage/New_DSA_Python$Student.coverage" NAME="Student Coverage Results" MODIFIED="1753842075197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01-basics" />
+    <SUITE FILE_PATH="coverage/New_DSA_Python$BST.coverage" NAME="BST Coverage Results" MODIFIED="1755362926679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07_Data_Strucutres/11_Binary_Trees/Exs" />
+    <SUITE FILE_PATH="coverage/New_DSA_Python$01_HashChain.coverage" NAME="01-HashChain Coverage Results" MODIFIED="1755706068708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07_Data_Strucutres/13-hashing" />
+    <SUITE FILE_PATH="coverage/New_DSA_Python$CircularLinkedList.coverage" NAME="CircularLinkedList Coverage Results" MODIFIED="1754410692099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07-Data-Strucutres/07-Linked-List/CL" />
+    <SUITE FILE_PATH="coverage/New_DSA_Python$02_HashLinearProbe.coverage" NAME="02-HashLinearProbe Coverage Results" MODIFIED="1755708793460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07_Data_Strucutres/13-hashing" />
+    <SUITE FILE_PATH="coverage/New_DSA_Python$Balanced_Search_Trees.coverage" NAME="Balanced_Search_Trees Coverage Results" MODIFIED="1755821767993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07_Data_Strucutres/12-Balanced-Trees" />
+    <SUITE FILE_PATH="coverage/New_DSA_Python$StacksArray.coverage" NAME="StacksArray Coverage Results" MODIFIED="1754533162176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07-Data-Strucutres/08-Stack" />
+    <SUITE FILE_PATH="coverage/New_DSA_Python$Queues_LL.coverage" NAME="Queues_LL Coverage Results" MODIFIED="1754537861294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07-Data-Strucutres/09-queues" />
+    <SUITE FILE_PATH="coverage/New_DSA_Python$BT.coverage" NAME="BT Coverage Results" MODIFIED="1755269394908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07_Data_Strucutres/10_Trees/Ex-1" />
+    <SUITE FILE_PATH="coverage/New_DSA_Python$03_Bubble_Sort.coverage" NAME="03-Bubble-Sort Coverage Results" MODIFIED="1754059862938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06-Sorting" />
+    <SUITE FILE_PATH="coverage/New_DSA_Python$DeQueArray.coverage" NAME="DeQueArray Coverage Results" MODIFIED="1754538344065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07-Data-Strucutres/09-queues" />
+    <SUITE FILE_PATH="coverage/New_DSA_Python$02_heap.coverage" NAME="02-heap Coverage Results" MODIFIED="1755621095479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07_Data_Strucutres/12-Priority-Queues" />
+    <SUITE FILE_PATH="coverage/New_DSA_Python$Queues_using_Arrays.coverage" NAME="Queues_using_Arrays Coverage Results" MODIFIED="1754537383080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07-Data-Strucutres/09-queues" />
+    <SUITE FILE_PATH="coverage/New_DSA_Python$04_bucket_sort.coverage" NAME="04-bucket-sort Coverage Results" MODIFIED="1755709261078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07_Data_Strucutres/13-hashing" />
     <SUITE FILE_PATH="coverage/New_DSA_Python$my_UnderStanding.coverage" NAME="my_UnderStanding Coverage Results" MODIFIED="1754170638394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06-Sorting/05-merge-sort" />
     <SUITE FILE_PATH="coverage/New_DSA_Python$01_basics.coverage" NAME="01-basics Coverage Results" MODIFIED="1753712997386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01-basics" />
     <SUITE FILE_PATH="coverage/New_DSA_Python$05_Merge_Sort.coverage" NAME="05-Merge-Sort Coverage Results" MODIFIED="1754063197198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06-Sorting" />
     <SUITE FILE_PATH="coverage/New_DSA_Python$02_insertion_sort.coverage" NAME="02-insertion_sort Coverage Results" MODIFIED="1753984468072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06-Sorting" />
-    <SUITE FILE_PATH="coverage/New_DSA_Python$CircularLinkedList.coverage" NAME="CircularLinkedList Coverage Results" MODIFIED="1754410692099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07-Data-Strucutres/07-Linked-List/CL" />
+    <SUITE FILE_PATH="coverage/New_DSA_Python$BST__1_.coverage" NAME="BST (1) Coverage Results" MODIFIED="1755450291636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07_Data_Strucutres/11_Binary_Trees/Ex-1" />
     <SUITE FILE_PATH="coverage/New_DSA_Python$linear_search.coverage" NAME="linear_search Coverage Results" MODIFIED="1753845870951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05-Searching" />
-    <SUITE FILE_PATH="coverage/New_DSA_Python$StacksArray.coverage" NAME="StacksArray Coverage Results" MODIFIED="1754533162176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07-Data-Strucutres/08-Stack" />
-    <SUITE FILE_PATH="coverage/New_DSA_Python$Queues_LL.coverage" NAME="Queues_LL Coverage Results" MODIFIED="1754537861294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07-Data-Strucutres/09-queues" />
-    <SUITE FILE_PATH="coverage/New_DSA_Python$00_Binary_Tree.coverage" NAME="00_Binary_Tree Coverage Results" MODIFIED="1754593058148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07_Data_Strucutres/10_Trees" />
+    <SUITE FILE_PATH="coverage/New_DSA_Python$03_heapSort.coverage" NAME="03-heapSort Coverage Results" MODIFIED="1755651728354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07_Data_Strucutres/12-Priority-Queues" />
+    <SUITE FILE_PATH="coverage/New_DSA_Python$.coverage" NAME=" Coverage Results" MODIFIED="1754944211553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07_Data_Strucutres/07-List/Exs/LL" />
+    <SUITE FILE_PATH="coverage/New_DSA_Python$00_Binary_Tree.coverage" NAME="00_Binary_Tree Coverage Results" MODIFIED="1754593756543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07_Data_Strucutres/10_Trees" />
     <SUITE FILE_PATH="coverage/New_DSA_Python$01_Selection_Sort.coverage" NAME="01-Selection-Sort Coverage Results" MODIFIED="1753982457307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06-Sorting" />
-    <SUITE FILE_PATH="coverage/New_DSA_Python$LinkedList.coverage" NAME="LinkedList Coverage Results" MODIFIED="1754335821874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07-Data-Strucutres/07-Linked-List" />
+    <SUITE FILE_PATH="coverage/New_DSA_Python$LinkedList.coverage" NAME="LinkedList Coverage Results" MODIFIED="1754885045278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07_Data_Strucutres/07-List/Exs" />
     <SUITE FILE_PATH="coverage/New_DSA_Python$DoublyLinkedList.coverage" NAME="DoublyLinkedList Coverage Results" MODIFIED="1754414478224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07-Data-Strucutres/07-List/DLL" />
-    <SUITE FILE_PATH="coverage/New_DSA_Python$03_Bubble_Sort.coverage" NAME="03-Bubble-Sort Coverage Results" MODIFIED="1754059862938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06-Sorting" />
-    <SUITE FILE_PATH="coverage/New_DSA_Python$DeQueArray.coverage" NAME="DeQueArray Coverage Results" MODIFIED="1754538344065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07-Data-Strucutres/09-queues" />
     <SUITE FILE_PATH="coverage/New_DSA_Python$StacksArrays_LL.coverage" NAME="StacksArrays_LL Coverage Results" MODIFIED="1754535479371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07-Data-Strucutres/08-Stack" />
+    <SUITE FILE_PATH="coverage/New_DSA_Python$BInarySearchTree.coverage" NAME="BInarySearchTree Coverage Results" MODIFIED="1755133938418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07_Data_Strucutres/11_Binary_Trees" />
     <SUITE FILE_PATH="coverage/New_DSA_Python$binary_search_recursive.coverage" NAME="binary_search_recursive Coverage Results" MODIFIED="1753847821888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05-Searching" />
     <SUITE FILE_PATH="coverage/New_DSA_Python$04_Shell_Sort.coverage" NAME="04-Shell-Sort Coverage Results" MODIFIED="1754061164377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06-Sorting" />
-    <SUITE FILE_PATH="coverage/New_DSA_Python$Queues_using_Arrays.coverage" NAME="Queues_using_Arrays Coverage Results" MODIFIED="1754537383080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07-Data-Strucutres/09-queues" />
+    <SUITE FILE_PATH="coverage/New_DSA_Python$01_Heap.coverage" NAME="01-Heap Coverage Results" MODIFIED="1755620800385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07_Data_Strucutres/12-Priority-Queues" />
     <SUITE FILE_PATH="coverage/New_DSA_Python$binary_search.coverage" NAME="binary_search Coverage Results" MODIFIED="1753981834672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05-Searching" />
   </component>
 </project>
