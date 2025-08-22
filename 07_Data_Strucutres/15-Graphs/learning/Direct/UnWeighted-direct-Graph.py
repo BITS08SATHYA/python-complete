@@ -69,6 +69,9 @@ class Graph:
                     visited[j] = 1
                     q.enqueue(j)
 
+    def DFS(self, s):
+        pass
+
 
 G = Graph(7)
 G.insert_edge(0, 1)
