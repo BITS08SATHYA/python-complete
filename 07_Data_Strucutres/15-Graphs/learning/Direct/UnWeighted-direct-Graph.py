@@ -5,6 +5,7 @@ class Graph:
     def __init__(self, vertices):
         self._vertices = vertices
         self._adjMat = np.zeros((vertices, vertices))
+        self._visited = [0] * vertices
 
     def insert_edge(self, u, v, x = 1):
         self._adjMat[u][v] = x
@@ -64,13 +65,48 @@ class Graph:
         while not q.is_empty():
             i = q.dequeue()
             for j in range(self._vertices):
+                # print("I am printing the vertices ",j, end = '\n')
+                if self._adjMat[i][j] == 1 and visited[j] == 0:
+                    print(j, end = ' ')
+                    visited[j] = 1
+                    q.enqueue(j)
+
+    def BFS_1(self, s):
+        i = s
+        q = QueuesLinkedList()
+        visited = [0] * self._vertices
+        print(i, end = ' ')
+        visited[i] = 1
+        q.enqueue(i)
+        while not q.is_empty():
+            i = q.dequeue()
+            for j in range(self._vertices):
+                if self._adjMat[i][j] == 1 and visited[j] == 0:
+                    print(j, end = ' ')
+                    visited[j] = 1
+                    q.enqueue(j)
+
+    def BFS_2(self, s):
+        i = s
+        q = QueuesLinkedList()
+        visited = [0] * self._vertices
+        print(i, end = ' ')
+        q.enqueue(i)
+        while not q.is_empty():
+            i = q.dequeue()
+            for j in range(self._vertices):
                 if self._adjMat[i][j] == 1 and visited[j] == 0:
                     print(j, end = ' ')
                     visited[j] = 1
                     q.enqueue(j)
 
     def DFS(self, s):
-        pass
+        if self._visited[s] == 0:
+            print(s, end = ' ')
+            self._visited[s] = 1
+            for j in range(self._vertices):
+                if self._adjMat[s][j] == 1 and self._visited[j] == 0:
+                    self.DFS(j)
 
 
 G = Graph(7)
@@ -92,8 +128,11 @@ G.insert_edge(5, 3)
 G.insert_edge(6, 3)
 print('BFS')
 G.BFS(0)
-print("\nBFS from vertex 4")
-G.BFS(4)
+# print("\nBFS from vertex 4")
+# G.BFS(4)
+# print('DFS')
+# G.DFS(1)
+# G.DFS(4)
 
 
 # G = Graph(4)
