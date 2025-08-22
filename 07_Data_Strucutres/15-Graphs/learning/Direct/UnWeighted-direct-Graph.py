@@ -108,6 +108,14 @@ class Graph:
                 if self._adjMat[s][j] == 1 and self._visited[j] == 0:
                     self.DFS(j)
 
+    def DFS_1(self, s):
+        if self._visited[s] == 0:
+            print(s, end = ' ')
+            self._visited[s] = 1
+            for j in range(self._vertices):
+                if self._adjMat[s][j] == 1 and self._visited[j] == 0:
+                    self.DFS_1(j)
+
 
 G = Graph(7)
 G.insert_edge(0, 1)
@@ -130,8 +138,9 @@ print('BFS')
 G.BFS(0)
 # print("\nBFS from vertex 4")
 # G.BFS(4)
-# print('DFS')
-# G.DFS(1)
+print('\n')
+print('DFS')
+G.DFS(0)
 # G.DFS(4)
 
 
