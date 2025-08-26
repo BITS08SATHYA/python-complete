@@ -51,8 +51,23 @@ class Graph:
         return count
 
     def display_adjMat(self):
-        # print(self._adjMat)
-        pass
+        print(self._adjMat)
+
+# UnDirected Unweighted graphs
+G = Graph(4)
+G.display_adjMat()
+print( 'Vertices: ' ,G.vertex_count())
+print( 'Edges: ' ,G.edge_count())
+G.insertEdge(0, 1)
+G.insertEdge(0, 2)
+G.insertEdge(1, 0)
+G.insertEdge(1,2)
+G.insertEdge(2,0)
+G.insertEdge(2,1)
+G.insertEdge(2,3)
+G.insertEdge(3,2)
+G.display_adjMat()
+print('Edges: ', G.edge_count())
 
 
 
