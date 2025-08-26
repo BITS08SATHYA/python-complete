@@ -1,5 +1,6 @@
 import numpy as np
 
+
 class Graph:
     def __init__(self, vertices):
         self._vertices = vertices
@@ -52,6 +53,11 @@ class Graph:
 
     def display_adjMat(self):
         print(self._adjMat)
+
+
+
+
+
 
 # Directed weighted graphs
 G = Graph(4)
