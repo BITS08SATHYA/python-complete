@@ -68,8 +68,11 @@ G.insertEdge(2,3)
 G.insertEdge(3,2)
 G.display_adjMat()
 print('Edges: ', G.edge_count())
-
-
+G.edges()
+print('Edge between 1-2',G.exist_edge(1,2))
+print('Degree', G.indegree(2))
+G.removeEdge(1,2)
+print('Edge between 1-2', G.exist_edge(1,2))
 
 
 
